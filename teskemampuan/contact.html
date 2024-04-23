@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>King The Land</title>
+    <link href="./contact.css" rel="stylesheet">
+</head>
+
+<body style="background-image: url('bg1.jpg');">
+                                                                <!-- header -->
+    <header>
+        <nav>
+            <div class="nav">
+                <ul class="ul">
+                    <img src="logo.png" class="logo"/>
+                    <li class="active">
+                        <a href="index.html" class="list">Home</a>
+                        <a href="media.html" class="list">Media</a>
+                        <a href="contact.html" class="list">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+                                                                <!-- header -->
+
+    <h1></h1>
+    <div class="container">
+        <form>
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" required placeholder="name"/>
+                
+            <label for="email">Email</label><br>
+            <input type="email" id="email" required placeholder="email"/>
+        
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" required placeholder="phone"/>
+       
+            <label for="message">Your Message</label><br>
+            <textarea id="message"></textarea>
+
+            <button type="button" onclick="submitHandler()">Submit</button>
+        </form>
+    </div>
+    <!-- Javascript -->
+    <script src ="contact.js"></script>
+</body>
+</html>
